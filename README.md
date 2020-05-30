@@ -1,6 +1,6 @@
 # DeepRacer local training (2020 CPU VM version)
 
-Fork of  based of https://github.com/mattcamp/deepracer-local, that is based on work by [Crr0004](https://github.com/crr0004), [AlexSchultz](https://github.com/alexschultz), [Richardfan1126](https://github.com/richardfan1126) and [LarsLL](https://github.com/larsll)
+Fork of https://github.com/mattcamp/deepracer-local, that is based on work by [Crr0004](https://github.com/crr0004), [AlexSchultz](https://github.com/alexschultz), [Richardfan1126](https://github.com/richardfan1126) and [LarsLL](https://github.com/larsll)
 
 This is my own version for use in a Virtualbox VM on OSX. It assumes you have at least 4 cores and 4gb of RAM to commit to your VM instance. The slowest computer I am running this on has a Quad Core 2,6 i7 CPU, and 16gb of 1600Mhz DDR RAM. 
 
@@ -10,7 +10,7 @@ The first run will likely take quite a while to start as it needs to pull over 1
 
 ## No Video stream, Web stream, and Kinesis stream
 
-I am not providing a streams for this trainer, using non GUI. What will be running is a tmux log, where you can see how the robot performs. 
+I am not providing streams for this trainer, using non GUI. What will be running is a tmux log, where you can see how the robot performs. 
 
 ## Getting help
 
