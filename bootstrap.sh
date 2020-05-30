@@ -33,3 +33,5 @@ sudo apt install -y htop
 #sudo docker pull awsdeepracercommunity/deepracer-sagemaker:cpu
 # The network sometimes needs to be added manually
 sudo docker network create sagemaker-local
+
+sudo apt autoremove -y
