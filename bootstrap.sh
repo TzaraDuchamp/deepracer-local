@@ -29,8 +29,7 @@ echo "Install htop CPU and RAM monitor"
 sudo apt install -y htop
 
 #echo "Pull 2 of 4 DeepRacer dockers; this will take some time. Have a coffee."
-#sudo docker pull mattcamp/dr-coach
-#sudo docker pull awsdeepracercommunity/deepracer-sagemaker:cpu
+sudo docker pull awsdeepracercommunity/deepracer-sagemaker:cpu
 # The network sometimes needs to be added manually
 sudo docker network create sagemaker-local
 
