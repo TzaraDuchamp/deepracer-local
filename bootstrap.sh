@@ -28,12 +28,8 @@ sudo apt-get install zip
 echo "Install htop CPU and RAM monitor"
 sudo apt install -y htop
 
-echo "Install Git and clone Deepracer repository for CPU and VM"
-sudo apt install -y git
-sudo git clone https://github.com/TzaraDuchamp/deepracer-local.git
-
-echo "Pull 2 of 4 DeepRacer dockers; this will take some time. Have a coffee."
-sudo docker pull mattcamp/dr-coach
-sudo docker pull awsdeepracercommunity/deepracer-sagemaker:cpu
+#echo "Pull 2 of 4 DeepRacer dockers; this will take some time. Have a coffee."
+#sudo docker pull mattcamp/dr-coach
+#sudo docker pull awsdeepracercommunity/deepracer-sagemaker:cpu
 # The network sometimes needs to be added manually
 sudo docker network create sagemaker-local
